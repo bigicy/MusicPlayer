@@ -1,0 +1,28 @@
+[
+ {
+ "controllName":"HomePageTableViewController",
+ "title":"首页",
+ "imageName":"cm2_note_icn_listen@2x"
+ }
+ ,
+ {
+ "controllName":"TopListTableViewController",
+ "title":"排行榜",
+ "imageName":"cm2_note_icn_logo@2x"
+ }
+ ,
+ {
+ "controllName":"CategoryCollectionViewController",
+ "title":"分类",
+ "imageName":"cm2_btm_icn_music_prs@2x"
+ }
+ ,
+ {
+ "controllName":"UserTableViewController",
+ "title":"我的",
+ "imageName":"ic_radiopage_personal@2x"
+ }
+ 
+ 
+ 
+ ]

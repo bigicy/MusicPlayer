@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryActivityCell" customModule="iOS04MusicPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="269"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="269"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buc-HS-w1x">
+                        <rect key="frame" x="0.0" y="67" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Ngp-1H-KWL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DqU-6r-Fc4">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="D0y-cd-PEF"/>
+                            <constraint firstAttribute="height" constant="100" id="xbX-Mb-uir"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="DqU-6r-Fc4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="K5s-NN-5LB"/>
+                <constraint firstItem="DqU-6r-Fc4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iY3-nO-pDK"/>
+                <constraint firstItem="buc-HS-w1x" firstAttribute="bottom" secondItem="DqU-6r-Fc4" secondAttribute="bottom" constant="-3" id="x3M-V5-XC7"/>
+                <constraint firstItem="buc-HS-w1x" firstAttribute="width" secondItem="DqU-6r-Fc4" secondAttribute="width" id="xbm-i3-AMp"/>
+                <constraint firstItem="buc-HS-w1x" firstAttribute="leading" secondItem="DqU-6r-Fc4" secondAttribute="leading" id="yih-j3-ZWo"/>
+            </constraints>
+            <size key="customSize" width="367" height="269"/>
+            <connections>
+                <outlet property="imageV" destination="DqU-6r-Fc4" id="Nih-6u-wmH"/>
+                <outlet property="nameLabel" destination="buc-HS-w1x" id="ifP-6J-VaB"/>
+            </connections>
+            <point key="canvasLocation" x="363.5" y="293.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

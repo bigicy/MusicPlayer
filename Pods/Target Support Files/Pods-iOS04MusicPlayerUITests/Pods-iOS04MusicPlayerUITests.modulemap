@@ -1,0 +1,6 @@
+framework module Pods_iOS04MusicPlayerUITests {
+  umbrella header "Pods-iOS04MusicPlayerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
